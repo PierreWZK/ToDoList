@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+//FontAwesome
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.navbar-laravel {
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body{
+padding-top: 5rem;
+}
+form.add{
+padding-bottom: 10px;
+}
+.pull-right{
+float: right;
+}
+.action > .btn{
+padding: 1px 7px 1px;
+}
+.oi{
+font-size: small;
+}
+.termine{
+    background-color: lightgreen;
+}
+.notermine{
+    background-color: #efa994;
+}
+.disabledLink{
+    pointer-events: none;
+    cursor: default;
+}
+.linker{
+    float:right;
+    margin-left: 10px;
+}
+
+.navi{
+    margin-right: 10px;
+}
